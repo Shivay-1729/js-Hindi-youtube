@@ -40,4 +40,25 @@ const myFunction = function(){
 // console.log(typeof myFunction);
 // console.log(typeof heros);
 
-myFunction();
+//myFunction();
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++=
+// stack (primitive)  heap(non-primitive)
+// let myYoutubename = "hiteshchoudharydotcom"
+
+// let anothername = myYoutubename
+// anothername = "chaiaurcode"
+
+// console.log(myYoutubename);
+// console.log(anothername);
+
+let userOne = {
+    email: "user@123",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "saurabh@123"
+
+console.log(userOne.email);
